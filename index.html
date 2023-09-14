@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,26 @@
     <title>Legal Solutions</title>
     <!-- favicon  -->
     <link rel="icon" href="images/logo2.png" type="images/x-icon" />
+    <!-- daisyUI cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom classes  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'text-color-primary': '#B68C5A',
+                        'text-color-secondary': '#939393',
+                        'text-color-tertiary': '#414040',
+                        'background-color-primary': '#f6f6f6'
+
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
