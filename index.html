@@ -23,10 +23,11 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'text-color-primary': '#B68C5A',
-                        'text-color-secondary': '#939393',
-                        'text-color-tertiary': '#414040',
-                        'background-color-primary': '#f6f6f6'
+                        'color-primary': '#B68C5A',
+                        'color-secondary': '#939393',
+                        'color-tertiary': '#414040',
+                        'color-quaternary': '#797979',
+                        'background-primary': '#f6f6f6'
 
                     }
                 }
@@ -46,6 +47,136 @@
 </head>
 
 <body>
+    <header class="max-w-[1152px] mx-auto">
+        <nav class="mt-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+
+                        <ul tabindex="0" class="menu menu-sm
+                             dropdown-content
+                              mt-3 z-[1] p-2 
+                              shadow bg-base-100 
+                              rounded-box w-52 
+                              custom-font-poppins text-color-quaternary
+                              hover:bg-color-primary hover:text-black
+                              ">
+                            <li class="hover:bg-color-primary hover:text-black"><a>Home</a></li>
+
+                            <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                                <details>
+                                    <summary>Services</summary>
+                                    <ul class="p-2">
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+
+                            <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                                <details>
+                                    <summary>Cases</summary>
+                                    <ul class="p-2">
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+
+                            <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                                <details>
+                                    <summary>Blog</summary>
+                                    <ul class="p-2">
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+
+                            <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                                <details>
+                                    <summary>Contact Us</summary>
+                                    <ul class="p-2">
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                        <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-black custom-font-eb text-3xl">
+                        <a href="#"><img src="images/logo2.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-2 
+                    custom-font-poppins text-color-quaternary
+                    ">
+                        <li class="hover:bg-color-primary hover:text-black"><a>Home</a></li>
+
+                        <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                            <details>
+                                <summary>Services</summary>
+                                <ul class="p-2">
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                        <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                            <details>
+                                <summary>Cases</summary>
+                                <ul class="p-2">
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                        <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                            <details>
+                                <summary>Blog</summary>
+                                <ul class="p-2">
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                        <li class="hover:bg-color-primary hover:text-black" tabindex="0">
+                            <details>
+                                <summary>Contact Us</summary>
+                                <ul class="p-2">
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 1</a></li>
+                                    <li class="hover:bg-color-primary hover:text-black"><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn btn-md 
+                    bg-color-primary rounded-md p-4 
+                    text-white capitalize custom-font-poppins
+                    hover:bg-color-quaternary hover:text-black
+                    ">
+                        Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 
 </body>
 
